@@ -1,5 +1,5 @@
-imread('prerna.jpg');
-imwrite(ans,sprintf('prerna.pdf'));
+imread('cat.jpg');
+imwrite(ans,sprintf('cat.pdf'));
 plot ans
 plot(ans);
 image(ans)
@@ -32,7 +32,7 @@ pl5=b(:,:,5);
 pl6=b(:,:,6);
 pl7=b(:,:,7);
 pl8=b(:,:,8);
-img1= imread(prerna.jpg); img = rgb2gray(img1);[row col]=size(img);
+img1= imread('cat.jpg'); img = rgb2gray(img1);[row col]=size(img);
 b=zeros(row,col,8);
 for k=1:8
 for i=1:row
@@ -49,7 +49,7 @@ pl5=b(:,:,5);
 pl6=b(:,:,6);
 pl7=b(:,:,7);
 pl8=b(:,:,8);
-img1= imread('prerna.jpg'); img = rgb2gray(img1);[row col]=size(img);
+img1= imread('cat.jpg'); img = rgb2gray(img1);[row col]=size(img);
 b=zeros(row,col,8);
 for k=1:8
 for i=1:row
